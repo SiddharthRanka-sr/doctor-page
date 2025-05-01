@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 40px;
+    background-color: #0d3b66;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .header-center {
+    flex: 1;
+    max-width: 1000px;
+    margin: 0 40px;
+  }
+  
+  .search-container {
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 16px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 18px 28px 18px 48px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    color: #0e0808;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+  .login-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 40px;
+    border-radius: 25px;
+    font-size: 24px;
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #e76f51;
+  }
+  
+  .login-icon {
+    font-size: 18px;
+  }
+  
